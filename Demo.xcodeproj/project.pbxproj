@@ -7,25 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220BF72E3915B08D0AD32873 /* Pods_tunnel_extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617FD5BAE399A0B36D834F1D /* Pods_tunnel_extension.framework */; };
 		946B73703150E495A5FF3705 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A11581D1E41D50CA31BA10 /* Pods_Demo.framework */; };
 		E00592DD27492BE90076486C /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00592DC27492BE90076486C /* DemoApp.swift */; };
 		E00592DF27492BE90076486C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00592DE27492BE90076486C /* ContentView.swift */; };
 		E00592E127492BEB0076486C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00592E027492BEB0076486C /* Assets.xcassets */; };
 		E00592E427492BEB0076486C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00592E327492BEB0076486C /* Preview Assets.xcassets */; };
-		E00592F8274935170076486C /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = E00592F7274935170076486C /* CocoaLumberjack */; };
-		E00592FA274935170076486C /* CocoaLumberjackSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E00592F9274935170076486C /* CocoaLumberjackSwift */; };
-		E00592FC274935170076486C /* CocoaLumberjackSwiftLogBackend in Frameworks */ = {isa = PBXBuildFile; productRef = E00592FB274935170076486C /* CocoaLumberjackSwiftLogBackend */; };
+		E005930027493CCD0076486C /* WebViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00592FE27493CCD0076486C /* WebViewPage.swift */; };
+		E005930227493E1A0076486C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E005930127493E1A0076486C /* WebView.swift */; };
+		E005930527493F890076486C /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E005930427493F890076486C /* NetworkExtension.framework */; };
+		E005930B274943170076486C /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E005930427493F890076486C /* NetworkExtension.framework */; };
+		E0059313274943170076486C /* tunnel-extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E005930A274943170076486C /* tunnel-extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E00593202749441A0076486C /* TunnelRayTunnelStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0059318274944180076486C /* TunnelRayTunnelStore.swift */; };
+		E00593212749441A0076486C /* Subnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0059319274944180076486C /* Subnet.swift */; };
+		E00593222749441A0076486C /* libleaf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E005931D2749441A0076486C /* libleaf.a */; };
+		E00593232749441A0076486C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E005931E2749441A0076486C /* README.md */; };
+		E0059328274944FA0076486C /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0059327274944FA0076486C /* PacketTunnelProvider.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E0059311274943170076486C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00592D127492BE90076486C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0059309274943170076486C;
+			remoteInfo = "tunnel-extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E0059317274943170076486C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E0059313274943170076486C /* tunnel-extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2E2A0CFBECA6CECA8222A059 /* Pods-tunnel-extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tunnel-extension.debug.xcconfig"; path = "Target Support Files/Pods-tunnel-extension/Pods-tunnel-extension.debug.xcconfig"; sourceTree = "<group>"; };
+		617FD5BAE399A0B36D834F1D /* Pods_tunnel_extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tunnel_extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A11581D1E41D50CA31BA10 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85861219062B5AC0EE073C48 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		9BE485AD42F3B84AAE316EA3 /* Pods-tunnel-extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tunnel-extension.release.xcconfig"; path = "Target Support Files/Pods-tunnel-extension/Pods-tunnel-extension.release.xcconfig"; sourceTree = "<group>"; };
 		D5E0EAB1C278235B6AAB202E /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		E00592D927492BE90076486C /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00592DC27492BE90076486C /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
 		E00592DE27492BE90076486C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E00592E027492BEB0076486C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E00592E327492BEB0076486C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E00592FE27493CCD0076486C /* WebViewPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewPage.swift; sourceTree = "<group>"; };
+		E005930127493E1A0076486C /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E005930327493F890076486C /* Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Demo.entitlements; sourceTree = "<group>"; };
+		E005930427493F890076486C /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		E005930A274943170076486C /* tunnel-extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "tunnel-extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E005930F274943170076486C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0059310274943170076486C /* tunnel_extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tunnel_extension.entitlements; sourceTree = "<group>"; };
+		E0059318274944180076486C /* TunnelRayTunnelStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunnelRayTunnelStore.swift; sourceTree = "<group>"; };
+		E0059319274944180076486C /* Subnet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subnet.swift; sourceTree = "<group>"; };
+		E005931A274944190076486C /* TunnelRay-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TunnelRay-Bridging-Header.h"; sourceTree = "<group>"; };
+		E005931C2749441A0076486C /* leaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leaf.h; sourceTree = "<group>"; };
+		E005931D2749441A0076486C /* libleaf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libleaf.a; sourceTree = "<group>"; };
+		E005931E2749441A0076486C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E0059327274944FA0076486C /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,10 +82,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00592F8274935170076486C /* CocoaLumberjack in Frameworks */,
 				946B73703150E495A5FF3705 /* Pods_Demo.framework in Frameworks */,
-				E00592FC274935170076486C /* CocoaLumberjackSwiftLogBackend in Frameworks */,
-				E00592FA274935170076486C /* CocoaLumberjackSwift in Frameworks */,
+				E005930527493F890076486C /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0059307274943170076486C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E005930B274943170076486C /* NetworkExtension.framework in Frameworks */,
+				E00593222749441A0076486C /* libleaf.a in Frameworks */,
+				220BF72E3915B08D0AD32873 /* Pods_tunnel_extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +103,9 @@
 		0C35EC88A4E93F334E339C06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E005930427493F890076486C /* NetworkExtension.framework */,
 				82A11581D1E41D50CA31BA10 /* Pods_Demo.framework */,
+				617FD5BAE399A0B36D834F1D /* Pods_tunnel_extension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -56,6 +115,8 @@
 			children = (
 				D5E0EAB1C278235B6AAB202E /* Pods-Demo.debug.xcconfig */,
 				85861219062B5AC0EE073C48 /* Pods-Demo.release.xcconfig */,
+				2E2A0CFBECA6CECA8222A059 /* Pods-tunnel-extension.debug.xcconfig */,
+				9BE485AD42F3B84AAE316EA3 /* Pods-tunnel-extension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -64,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				E00592DB27492BE90076486C /* Demo */,
+				E005930C274943170076486C /* tunnel-extension */,
 				E00592DA27492BE90076486C /* Products */,
 				3157752D0729EE3532188C7D /* Pods */,
 				0C35EC88A4E93F334E339C06 /* Frameworks */,
@@ -74,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				E00592D927492BE90076486C /* Demo.app */,
+				E005930A274943170076486C /* tunnel-extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,7 +144,10 @@
 		E00592DB27492BE90076486C /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				E005930327493F890076486C /* Demo.entitlements */,
 				E00592DC27492BE90076486C /* DemoApp.swift */,
+				E00592FE27493CCD0076486C /* WebViewPage.swift */,
+				E005930127493E1A0076486C /* WebView.swift */,
 				E00592DE27492BE90076486C /* ContentView.swift */,
 				E00592E027492BEB0076486C /* Assets.xcassets */,
 				E00592E227492BEB0076486C /* Preview Content */,
@@ -97,6 +163,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E005930C274943170076486C /* tunnel-extension */ = {
+			isa = PBXGroup;
+			children = (
+				E005930F274943170076486C /* Info.plist */,
+				E0059310274943170076486C /* tunnel_extension.entitlements */,
+				E0059327274944FA0076486C /* PacketTunnelProvider.swift */,
+				E005931B2749441A0076486C /* libleaf */,
+				E0059319274944180076486C /* Subnet.swift */,
+				E005931A274944190076486C /* TunnelRay-Bridging-Header.h */,
+				E0059318274944180076486C /* TunnelRayTunnelStore.swift */,
+			);
+			path = "tunnel-extension";
+			sourceTree = "<group>";
+		};
+		E005931B2749441A0076486C /* libleaf */ = {
+			isa = PBXGroup;
+			children = (
+				E005931C2749441A0076486C /* leaf.h */,
+				E005931D2749441A0076486C /* libleaf.a */,
+				E005931E2749441A0076486C /* README.md */,
+			);
+			path = libleaf;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,20 +199,39 @@
 				E00592D627492BE90076486C /* Frameworks */,
 				E00592D727492BE90076486C /* Resources */,
 				888E5B8399C6FA582593B1BE /* [CP] Embed Pods Frameworks */,
+				E0059317274943170076486C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0059312274943170076486C /* PBXTargetDependency */,
+			);
+			name = Demo;
+			packageProductDependencies = (
+			);
+			productName = Demo;
+			productReference = E00592D927492BE90076486C /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0059309274943170076486C /* tunnel-extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0059314274943170076486C /* Build configuration list for PBXNativeTarget "tunnel-extension" */;
+			buildPhases = (
+				F486308400DF27AD608E88AC /* [CP] Check Pods Manifest.lock */,
+				E0059306274943170076486C /* Sources */,
+				E0059307274943170076486C /* Frameworks */,
+				E0059308274943170076486C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Demo;
+			name = "tunnel-extension";
 			packageProductDependencies = (
-				E00592F7274935170076486C /* CocoaLumberjack */,
-				E00592F9274935170076486C /* CocoaLumberjackSwift */,
-				E00592FB274935170076486C /* CocoaLumberjackSwiftLogBackend */,
 			);
-			productName = Demo;
-			productReference = E00592D927492BE90076486C /* Demo.app */;
-			productType = "com.apple.product-type.application";
+			productName = "tunnel-extension";
+			productReference = E005930A274943170076486C /* tunnel-extension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -137,6 +246,9 @@
 					E00592D827492BE90076486C = {
 						CreatedOnToolsVersion = 13.1;
 					};
+					E0059309274943170076486C = {
+						CreatedOnToolsVersion = 13.1;
+					};
 				};
 			};
 			buildConfigurationList = E00592D427492BE90076486C /* Build configuration list for PBXProject "Demo" */;
@@ -149,13 +261,13 @@
 			);
 			mainGroup = E00592D027492BE90076486C;
 			packageReferences = (
-				E00592F6274935170076486C /* XCRemoteSwiftPackageReference "CocoaLumberjack" */,
 			);
 			productRefGroup = E00592DA27492BE90076486C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E00592D827492BE90076486C /* Demo */,
+				E0059309274943170076486C /* tunnel-extension */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +279,14 @@
 			files = (
 				E00592E427492BEB0076486C /* Preview Assets.xcassets in Resources */,
 				E00592E127492BEB0076486C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0059308274943170076486C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00593232749441A0076486C /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +332,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F486308400DF27AD608E88AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tunnel-extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -220,11 +362,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				E00592DF27492BE90076486C /* ContentView.swift in Sources */,
+				E005930227493E1A0076486C /* WebView.swift in Sources */,
+				E005930027493CCD0076486C /* WebViewPage.swift in Sources */,
 				E00592DD27492BE90076486C /* DemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0059306274943170076486C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00593212749441A0076486C /* Subnet.swift in Sources */,
+				E00593202749441A0076486C /* TunnelRayTunnelStore.swift in Sources */,
+				E0059328274944FA0076486C /* PacketTunnelProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0059312274943170076486C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0059309274943170076486C /* tunnel-extension */;
+			targetProxy = E0059311274943170076486C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E00592E527492BEB0076486C /* Debug */ = {
@@ -349,6 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Demo/Demo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Demo/Preview Content\"";
@@ -379,6 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Demo/Demo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Demo/Preview Content\"";
@@ -398,6 +562,70 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nthlink.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0059315274943170076486C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E2A0CFBECA6CECA8222A059 /* Pods-tunnel-extension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "tunnel-extension/tunnel_extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AKNPAU674J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tunnel-extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "tunnel-extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tunnel-extension/libleaf",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nthlink.Demo.tunnel-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/tunnel-extension/TunnelRay-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0059316274943170076486C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE485AD42F3B84AAE316EA3 /* Pods-tunnel-extension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "tunnel-extension/tunnel_extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AKNPAU674J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tunnel-extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "tunnel-extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tunnel-extension/libleaf",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nthlink.Demo.tunnel-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/tunnel-extension/TunnelRay-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -424,36 +652,16 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		E0059314274943170076486C /* Build configuration list for PBXNativeTarget "tunnel-extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0059315274943170076486C /* Debug */,
+				E0059316274943170076486C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		E00592F6274935170076486C /* XCRemoteSwiftPackageReference "CocoaLumberjack" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/CocoaLumberjack/CocoaLumberjack.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.7.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		E00592F7274935170076486C /* CocoaLumberjack */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E00592F6274935170076486C /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
-			productName = CocoaLumberjack;
-		};
-		E00592F9274935170076486C /* CocoaLumberjackSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E00592F6274935170076486C /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
-			productName = CocoaLumberjackSwift;
-		};
-		E00592FB274935170076486C /* CocoaLumberjackSwiftLogBackend */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E00592F6274935170076486C /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
-			productName = CocoaLumberjackSwiftLogBackend;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E00592D127492BE90076486C /* Project object */;
 }

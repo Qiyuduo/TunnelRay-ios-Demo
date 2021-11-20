@@ -216,7 +216,7 @@ SWIFT_CLASS("_TtC9TunnelRay15TunnelRayConfig") SWIFT_AVAILABILITY(ios,introduced
 @end
 
 
-SWIFT_CLASS("_TtC9TunnelRay15TunnelRayCrypto") SWIFT_AVAILABILITY(ios,introduced=10.3)
+SWIFT_CLASS("_TtC9TunnelRay15TunnelRayCrypto") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface TunnelRayCrypto : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -471,7 +471,7 @@ SWIFT_CLASS("_TtC9TunnelRay15TunnelRayConfig") SWIFT_AVAILABILITY(ios,introduced
 @end
 
 
-SWIFT_CLASS("_TtC9TunnelRay15TunnelRayCrypto") SWIFT_AVAILABILITY(ios,introduced=10.3)
+SWIFT_CLASS("_TtC9TunnelRay15TunnelRayCrypto") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface TunnelRayCrypto : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end

@@ -3,7 +3,6 @@
 // swift-module-flags: -target arm64-apple-ios15.0-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TunnelRay
 import Alamofire
 import CocoaLumberjack
-import CocoaLumberjackSwift
 import Combine
 import CryptoSwift
 import CryptorRSA
@@ -121,7 +120,7 @@ public class TunnelRayConfig : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @available(iOS 10.3, *)
+@objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
 public class TunnelRayCrypto : ObjectiveC.NSObject {
   public func decrypt(_ cipher: Swift.String) -> Swift.String
   public func encrypt(_ data: Swift.String) -> Swift.String

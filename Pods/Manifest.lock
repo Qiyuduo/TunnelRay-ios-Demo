@@ -6,7 +6,7 @@ PODS:
     - CocoaLumberjack/Core
   - CryptoSwift (1.4.2)
   - SwiftyJSON (5.0.1)
-  - TunnelRay (1.0.5):
+  - TunnelRay (1.0.6):
     - Alamofire (~> 5.4.0)
     - BlueRSA (~> 1.0.200)
     - CocoaLumberjack/Swift (~> 3.7.0)
@@ -14,8 +14,7 @@ PODS:
     - SwiftyJSON (~> 5.0.0)
 
 DEPENDENCIES:
-  - CocoaLumberjack/Swift
-  - TunnelRay (>= 1.0.5)
+  - TunnelRay (>= 1.0.6)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -32,8 +31,8 @@ SPEC CHECKSUMS:
   CocoaLumberjack: b7e05132ff94f6ae4dfa9d5bce9141893a21d9da
   CryptoSwift: a532e74ed010f8c95f611d00b8bbae42e9fe7c17
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
-  TunnelRay: 9bfe02179dc86194c4e4d2840c4b7cb8fa51a7de
+  TunnelRay: 95273c1bdaa34393940d73f2e9f5172d96290025
 
-PODFILE CHECKSUM: 68c5268528e3382e7647537114425db0bba3336e
+PODFILE CHECKSUM: 4744bfa3a39109191cfed2a06b067d2cfae37e5f
 
 COCOAPODS: 1.11.2
