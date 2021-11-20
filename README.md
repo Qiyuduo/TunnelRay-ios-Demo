@@ -67,4 +67,6 @@ end
 
 ### Part 3: Running on the real device.
 
-1. Connect your 
+1. Connect your device.  
+2. Select the App target and run.  
+    ![Debug](sources/debug.png)
