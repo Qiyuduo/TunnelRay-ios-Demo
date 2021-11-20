@@ -1,0 +1,11 @@
+framework module TunnelRay {
+  umbrella header "TunnelRay.h"
+
+  export *
+  module * { export * }
+}
+
+module TunnelRay.Swift {
+    header "TunnelRay-Swift.h"
+    requires objc
+}
