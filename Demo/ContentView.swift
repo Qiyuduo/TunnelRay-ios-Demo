@@ -1,5 +1,5 @@
 import SwiftUI
-import TunnelRay
+import TunnelRay_ios_lib
 
 struct ContentView: View {
     @StateObject var tunnel = TunnelRay_ios_lib();

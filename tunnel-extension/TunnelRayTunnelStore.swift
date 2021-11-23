@@ -1,5 +1,5 @@
 import Foundation
-import TunnelRay
+import TunnelRay_ios_lib
 
 @objcMembers
 class TunnelRayTunnelStore: NSObject {

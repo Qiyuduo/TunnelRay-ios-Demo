@@ -10,26 +10,13 @@
 1. Open the XCode, create a new `App` project. like below  
     ![New project](./sources/new-project.png)
 
-2. **Close the XCode**, go to the project folder, create a new file named `Podfile` with the following content:
-```pod
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '13.0'
+2. Right click on the project and select `Add Packages` -> "Add Local.." and then navigate to the `TunnelRay-ios-lib` folder and click `Add package`  
+    ![Add new package](./sources/add-local-package.png)
 
-## change to your target name
-target 'Demo' do
-    use_frameworks!
-    pod 'TunnelRay', '>= 1.0.6'
-end 
-```
+3. Go to the `Demo` target, and add new libraries under the `Frameworks, Libraries, and Embedded Content`, select `TunnelRay-ios-lib`  
+    ![Import package](./sources/import-package.jpg)
 
-3. Run the following command to install the dependencies.
-```bash
-$ pod install
-$ open -a xcode Demo.xcworkspace
-```
-> Note: please always open your project with {Name}.xcworkspace instead of {Name}.xcodeproj
-
-4. Drag the following files from this project to your project under the corresponding location, and check the `Copy item if needed`:
+4. Drag the following files from this project to your project under the corresponding location, and check the `Copy item if needed`: (Remove the original `ContentView.swft` file firstly)
     - Demo/Demo/ContentView.swift
     - Demo/Demo/WebView.swift
     - Demo/Demo/WebViewPage.swft  
@@ -47,22 +34,16 @@ $ open -a xcode Demo.xcworkspace
 3. After the extension created, set up the entitlement to match the app on the extension like following:  
     ![Extension entitlment](sources/extension-entitlement.png)
 
-4. Remove the `PacketTunnelProvider,swift` and Copy the following items from the this project to your project by dragging.  
+4. Remove the `PacketTunnelProvider.swift` and Copy the following items from the this project to your project by dragging.  
     - tunnel-extension/PacketTunnelProvider.swift
     - tunnel-extension/libleaf/*
     - tunnel-extension/Subnet.swift
     - tunnel-extension/TunnelRay-Bridging-Header.h
     - tunnel-extension/TunnelRayTunnelStore.swift
 
-5. Append the following changed to the Podfile, and re-run the `pod install` command
-```
-target 'tunnel-extension' do
-    use_frameworks!
-    pod 'TunnelRay', '>= 1.0.6'
-end 
-```
+5. Import the `TunnelRay-ios-lib` library on the target `tunnel-extension` by following the same process as #Part1.3
 
-6. Add Objective-C Bridging Header  
+6. Add Objective-C Bridging Header "`$(SRCROOT)/tunnel-extension/TunnelRay-Bridging-Header.h`"  
     ![Add Bridging header](sources/add-bridgin-header.png)
 
 ### Part 3: Running on the real device.

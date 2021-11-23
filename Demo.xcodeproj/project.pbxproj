@@ -7,42 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		220BF72E3915B08D0AD32873 /* Pods_tunnel_extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617FD5BAE399A0B36D834F1D /* Pods_tunnel_extension.framework */; };
-		946B73703150E495A5FF3705 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A11581D1E41D50CA31BA10 /* Pods_Demo.framework */; };
-		E00592DD27492BE90076486C /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00592DC27492BE90076486C /* DemoApp.swift */; };
-		E00592DF27492BE90076486C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00592DE27492BE90076486C /* ContentView.swift */; };
-		E00592E127492BEB0076486C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00592E027492BEB0076486C /* Assets.xcassets */; };
-		E00592E427492BEB0076486C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00592E327492BEB0076486C /* Preview Assets.xcassets */; };
-		E005930027493CCD0076486C /* WebViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00592FE27493CCD0076486C /* WebViewPage.swift */; };
-		E005930227493E1A0076486C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E005930127493E1A0076486C /* WebView.swift */; };
-		E005930527493F890076486C /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E005930427493F890076486C /* NetworkExtension.framework */; };
-		E005930B274943170076486C /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E005930427493F890076486C /* NetworkExtension.framework */; };
-		E0059313274943170076486C /* tunnel-extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E005930A274943170076486C /* tunnel-extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		E00593202749441A0076486C /* TunnelRayTunnelStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0059318274944180076486C /* TunnelRayTunnelStore.swift */; };
-		E00593212749441A0076486C /* Subnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0059319274944180076486C /* Subnet.swift */; };
-		E00593222749441A0076486C /* libleaf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E005931D2749441A0076486C /* libleaf.a */; };
-		E00593232749441A0076486C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E005931E2749441A0076486C /* README.md */; };
-		E0059328274944FA0076486C /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0059327274944FA0076486C /* PacketTunnelProvider.swift */; };
+		E0A69B22274D187F00BAD491 /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A69B21274D187F00BAD491 /* DemoApp.swift */; };
+		E0A69B24274D187F00BAD491 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A69B23274D187F00BAD491 /* ContentView.swift */; };
+		E0A69B26274D188100BAD491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A69B25274D188100BAD491 /* Assets.xcassets */; };
+		E0A69B29274D188100BAD491 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A69B28274D188100BAD491 /* Preview Assets.xcassets */; };
+		E0A69B33274D18B500BAD491 /* TunnelRay-ios-lib in Frameworks */ = {isa = PBXBuildFile; productRef = E0A69B32274D18B500BAD491 /* TunnelRay-ios-lib */; };
+		E0A69B37274D19BB00BAD491 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A69B35274D19BB00BAD491 /* WebView.swift */; };
+		E0A69B38274D19BB00BAD491 /* WebViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A69B36274D19BB00BAD491 /* WebViewPage.swift */; };
+		E0A69B3B274D19C900BAD491 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A69B3A274D19C900BAD491 /* NetworkExtension.framework */; };
+		E0A69B41274D19E400BAD491 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A69B3A274D19C900BAD491 /* NetworkExtension.framework */; };
+		E0A69B44274D19E400BAD491 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A69B43274D19E400BAD491 /* PacketTunnelProvider.swift */; };
+		E0A69B49274D19E400BAD491 /* tunnel-extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E0A69B40274D19E400BAD491 /* tunnel-extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E0A69B4F274D1A0200BAD491 /* TunnelRay-ios-lib in Frameworks */ = {isa = PBXBuildFile; productRef = E0A69B4E274D1A0200BAD491 /* TunnelRay-ios-lib */; };
+		E0A69B57274D1A9700BAD491 /* libleaf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A69B52274D1A9700BAD491 /* libleaf.a */; };
+		E0A69B58274D1A9700BAD491 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E0A69B53274D1A9700BAD491 /* README.md */; };
+		E0A69B59274D1A9700BAD491 /* Subnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A69B54274D1A9700BAD491 /* Subnet.swift */; };
+		E0A69B5A274D1A9700BAD491 /* TunnelRayTunnelStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A69B55274D1A9700BAD491 /* TunnelRayTunnelStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E0059311274943170076486C /* PBXContainerItemProxy */ = {
+		E0A69B47274D19E400BAD491 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E00592D127492BE90076486C /* Project object */;
+			containerPortal = E0A69B16274D187F00BAD491 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E0059309274943170076486C;
+			remoteGlobalIDString = E0A69B3F274D19E400BAD491;
 			remoteInfo = "tunnel-extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E0059317274943170076486C /* Embed App Extensions */ = {
+		E0A69B4D274D19E400BAD491 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				E0059313274943170076486C /* tunnel-extension.appex in Embed App Extensions */,
+				E0A69B49274D19E400BAD491 /* tunnel-extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,139 +50,129 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2E2A0CFBECA6CECA8222A059 /* Pods-tunnel-extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tunnel-extension.debug.xcconfig"; path = "Target Support Files/Pods-tunnel-extension/Pods-tunnel-extension.debug.xcconfig"; sourceTree = "<group>"; };
-		617FD5BAE399A0B36D834F1D /* Pods_tunnel_extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tunnel_extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82A11581D1E41D50CA31BA10 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85861219062B5AC0EE073C48 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
-		9BE485AD42F3B84AAE316EA3 /* Pods-tunnel-extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tunnel-extension.release.xcconfig"; path = "Target Support Files/Pods-tunnel-extension/Pods-tunnel-extension.release.xcconfig"; sourceTree = "<group>"; };
-		D5E0EAB1C278235B6AAB202E /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		E00592D927492BE90076486C /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E00592DC27492BE90076486C /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
-		E00592DE27492BE90076486C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E00592E027492BEB0076486C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E00592E327492BEB0076486C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E00592FE27493CCD0076486C /* WebViewPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewPage.swift; sourceTree = "<group>"; };
-		E005930127493E1A0076486C /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		E005930327493F890076486C /* Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Demo.entitlements; sourceTree = "<group>"; };
-		E005930427493F890076486C /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
-		E005930A274943170076486C /* tunnel-extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "tunnel-extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E005930F274943170076486C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0059310274943170076486C /* tunnel_extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tunnel_extension.entitlements; sourceTree = "<group>"; };
-		E0059318274944180076486C /* TunnelRayTunnelStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunnelRayTunnelStore.swift; sourceTree = "<group>"; };
-		E0059319274944180076486C /* Subnet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subnet.swift; sourceTree = "<group>"; };
-		E005931A274944190076486C /* TunnelRay-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TunnelRay-Bridging-Header.h"; sourceTree = "<group>"; };
-		E005931C2749441A0076486C /* leaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leaf.h; sourceTree = "<group>"; };
-		E005931D2749441A0076486C /* libleaf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libleaf.a; sourceTree = "<group>"; };
-		E005931E2749441A0076486C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E0059327274944FA0076486C /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		E0A69B1E274D187F00BAD491 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A69B21274D187F00BAD491 /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
+		E0A69B23274D187F00BAD491 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0A69B25274D188100BAD491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0A69B28274D188100BAD491 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0A69B34274D196D00BAD491 /* TunnelRay-ios-lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "TunnelRay-ios-lib"; path = "../TunnelRay-ios-lib"; sourceTree = "<group>"; };
+		E0A69B35274D19BB00BAD491 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E0A69B36274D19BB00BAD491 /* WebViewPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewPage.swift; sourceTree = "<group>"; };
+		E0A69B39274D19C900BAD491 /* Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Demo.entitlements; sourceTree = "<group>"; };
+		E0A69B3A274D19C900BAD491 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		E0A69B40274D19E400BAD491 /* tunnel-extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "tunnel-extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A69B43274D19E400BAD491 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		E0A69B45274D19E400BAD491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A69B46274D19E400BAD491 /* tunnel_extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tunnel_extension.entitlements; sourceTree = "<group>"; };
+		E0A69B51274D1A9700BAD491 /* leaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leaf.h; sourceTree = "<group>"; };
+		E0A69B52274D1A9700BAD491 /* libleaf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libleaf.a; sourceTree = "<group>"; };
+		E0A69B53274D1A9700BAD491 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E0A69B54274D1A9700BAD491 /* Subnet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subnet.swift; sourceTree = "<group>"; };
+		E0A69B55274D1A9700BAD491 /* TunnelRayTunnelStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunnelRayTunnelStore.swift; sourceTree = "<group>"; };
+		E0A69B56274D1A9700BAD491 /* TunnelRay-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TunnelRay-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E00592D627492BE90076486C /* Frameworks */ = {
+		E0A69B1B274D187F00BAD491 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				946B73703150E495A5FF3705 /* Pods_Demo.framework in Frameworks */,
-				E005930527493F890076486C /* NetworkExtension.framework in Frameworks */,
+				E0A69B33274D18B500BAD491 /* TunnelRay-ios-lib in Frameworks */,
+				E0A69B3B274D19C900BAD491 /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0059307274943170076486C /* Frameworks */ = {
+		E0A69B3D274D19E400BAD491 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E005930B274943170076486C /* NetworkExtension.framework in Frameworks */,
-				E00593222749441A0076486C /* libleaf.a in Frameworks */,
-				220BF72E3915B08D0AD32873 /* Pods_tunnel_extension.framework in Frameworks */,
+				E0A69B41274D19E400BAD491 /* NetworkExtension.framework in Frameworks */,
+				E0A69B4F274D1A0200BAD491 /* TunnelRay-ios-lib in Frameworks */,
+				E0A69B57274D1A9700BAD491 /* libleaf.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C35EC88A4E93F334E339C06 /* Frameworks */ = {
+		E0A69B15274D187F00BAD491 = {
 			isa = PBXGroup;
 			children = (
-				E005930427493F890076486C /* NetworkExtension.framework */,
-				82A11581D1E41D50CA31BA10 /* Pods_Demo.framework */,
-				617FD5BAE399A0B36D834F1D /* Pods_tunnel_extension.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3157752D0729EE3532188C7D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D5E0EAB1C278235B6AAB202E /* Pods-Demo.debug.xcconfig */,
-				85861219062B5AC0EE073C48 /* Pods-Demo.release.xcconfig */,
-				2E2A0CFBECA6CECA8222A059 /* Pods-tunnel-extension.debug.xcconfig */,
-				9BE485AD42F3B84AAE316EA3 /* Pods-tunnel-extension.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		E00592D027492BE90076486C = {
-			isa = PBXGroup;
-			children = (
-				E00592DB27492BE90076486C /* Demo */,
-				E005930C274943170076486C /* tunnel-extension */,
-				E00592DA27492BE90076486C /* Products */,
-				3157752D0729EE3532188C7D /* Pods */,
-				0C35EC88A4E93F334E339C06 /* Frameworks */,
+				E0A69B2F274D189F00BAD491 /* Packages */,
+				E0A69B20274D187F00BAD491 /* Demo */,
+				E0A69B42274D19E400BAD491 /* tunnel-extension */,
+				E0A69B1F274D187F00BAD491 /* Products */,
+				E0A69B31274D18B500BAD491 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		E00592DA27492BE90076486C /* Products */ = {
+		E0A69B1F274D187F00BAD491 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E00592D927492BE90076486C /* Demo.app */,
-				E005930A274943170076486C /* tunnel-extension.appex */,
+				E0A69B1E274D187F00BAD491 /* Demo.app */,
+				E0A69B40274D19E400BAD491 /* tunnel-extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E00592DB27492BE90076486C /* Demo */ = {
+		E0A69B20274D187F00BAD491 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				E005930327493F890076486C /* Demo.entitlements */,
-				E00592DC27492BE90076486C /* DemoApp.swift */,
-				E00592FE27493CCD0076486C /* WebViewPage.swift */,
-				E005930127493E1A0076486C /* WebView.swift */,
-				E00592DE27492BE90076486C /* ContentView.swift */,
-				E00592E027492BEB0076486C /* Assets.xcassets */,
-				E00592E227492BEB0076486C /* Preview Content */,
+				E0A69B39274D19C900BAD491 /* Demo.entitlements */,
+				E0A69B35274D19BB00BAD491 /* WebView.swift */,
+				E0A69B36274D19BB00BAD491 /* WebViewPage.swift */,
+				E0A69B21274D187F00BAD491 /* DemoApp.swift */,
+				E0A69B23274D187F00BAD491 /* ContentView.swift */,
+				E0A69B25274D188100BAD491 /* Assets.xcassets */,
+				E0A69B27274D188100BAD491 /* Preview Content */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
 		};
-		E00592E227492BEB0076486C /* Preview Content */ = {
+		E0A69B27274D188100BAD491 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				E00592E327492BEB0076486C /* Preview Assets.xcassets */,
+				E0A69B28274D188100BAD491 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		E005930C274943170076486C /* tunnel-extension */ = {
+		E0A69B2F274D189F00BAD491 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				E005930F274943170076486C /* Info.plist */,
-				E0059310274943170076486C /* tunnel_extension.entitlements */,
-				E0059327274944FA0076486C /* PacketTunnelProvider.swift */,
-				E005931B2749441A0076486C /* libleaf */,
-				E0059319274944180076486C /* Subnet.swift */,
-				E005931A274944190076486C /* TunnelRay-Bridging-Header.h */,
-				E0059318274944180076486C /* TunnelRayTunnelStore.swift */,
+				E0A69B34274D196D00BAD491 /* TunnelRay-ios-lib */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		E0A69B31274D18B500BAD491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0A69B3A274D19C900BAD491 /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0A69B42274D19E400BAD491 /* tunnel-extension */ = {
+			isa = PBXGroup;
+			children = (
+				E0A69B50274D1A9700BAD491 /* libleaf */,
+				E0A69B54274D1A9700BAD491 /* Subnet.swift */,
+				E0A69B56274D1A9700BAD491 /* TunnelRay-Bridging-Header.h */,
+				E0A69B55274D1A9700BAD491 /* TunnelRayTunnelStore.swift */,
+				E0A69B43274D19E400BAD491 /* PacketTunnelProvider.swift */,
+				E0A69B45274D19E400BAD491 /* Info.plist */,
+				E0A69B46274D19E400BAD491 /* tunnel_extension.entitlements */,
 			);
 			path = "tunnel-extension";
 			sourceTree = "<group>";
 		};
-		E005931B2749441A0076486C /* libleaf */ = {
+		E0A69B50274D1A9700BAD491 /* libleaf */ = {
 			isa = PBXGroup;
 			children = (
-				E005931C2749441A0076486C /* leaf.h */,
-				E005931D2749441A0076486C /* libleaf.a */,
-				E005931E2749441A0076486C /* README.md */,
+				E0A69B51274D1A9700BAD491 /* leaf.h */,
+				E0A69B52274D1A9700BAD491 /* libleaf.a */,
+				E0A69B53274D1A9700BAD491 /* README.md */,
 			);
 			path = libleaf;
 			sourceTree = "<group>";
@@ -190,37 +180,35 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E00592D827492BE90076486C /* Demo */ = {
+		E0A69B1D274D187F00BAD491 /* Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E00592E727492BEB0076486C /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildConfigurationList = E0A69B2C274D188100BAD491 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
-				A086083B9FA93B0D52581C88 /* [CP] Check Pods Manifest.lock */,
-				E00592D527492BE90076486C /* Sources */,
-				E00592D627492BE90076486C /* Frameworks */,
-				E00592D727492BE90076486C /* Resources */,
-				888E5B8399C6FA582593B1BE /* [CP] Embed Pods Frameworks */,
-				E0059317274943170076486C /* Embed App Extensions */,
+				E0A69B1A274D187F00BAD491 /* Sources */,
+				E0A69B1B274D187F00BAD491 /* Frameworks */,
+				E0A69B1C274D187F00BAD491 /* Resources */,
+				E0A69B4D274D19E400BAD491 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E0059312274943170076486C /* PBXTargetDependency */,
+				E0A69B48274D19E400BAD491 /* PBXTargetDependency */,
 			);
 			name = Demo;
 			packageProductDependencies = (
+				E0A69B32274D18B500BAD491 /* TunnelRay-ios-lib */,
 			);
 			productName = Demo;
-			productReference = E00592D927492BE90076486C /* Demo.app */;
+			productReference = E0A69B1E274D187F00BAD491 /* Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E0059309274943170076486C /* tunnel-extension */ = {
+		E0A69B3F274D19E400BAD491 /* tunnel-extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0059314274943170076486C /* Build configuration list for PBXNativeTarget "tunnel-extension" */;
+			buildConfigurationList = E0A69B4A274D19E400BAD491 /* Build configuration list for PBXNativeTarget "tunnel-extension" */;
 			buildPhases = (
-				F486308400DF27AD608E88AC /* [CP] Check Pods Manifest.lock */,
-				E0059306274943170076486C /* Sources */,
-				E0059307274943170076486C /* Frameworks */,
-				E0059308274943170076486C /* Resources */,
+				E0A69B3C274D19E400BAD491 /* Sources */,
+				E0A69B3D274D19E400BAD491 /* Frameworks */,
+				E0A69B3E274D19E400BAD491 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -228,30 +216,31 @@
 			);
 			name = "tunnel-extension";
 			packageProductDependencies = (
+				E0A69B4E274D1A0200BAD491 /* TunnelRay-ios-lib */,
 			);
 			productName = "tunnel-extension";
-			productReference = E005930A274943170076486C /* tunnel-extension.appex */;
+			productReference = E0A69B40274D19E400BAD491 /* tunnel-extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E00592D127492BE90076486C /* Project object */ = {
+		E0A69B16274D187F00BAD491 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					E00592D827492BE90076486C = {
+					E0A69B1D274D187F00BAD491 = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					E0059309274943170076486C = {
+					E0A69B3F274D19E400BAD491 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = E00592D427492BE90076486C /* Build configuration list for PBXProject "Demo" */;
+			buildConfigurationList = E0A69B19274D187F00BAD491 /* Build configuration list for PBXProject "Demo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -259,137 +248,71 @@
 				en,
 				Base,
 			);
-			mainGroup = E00592D027492BE90076486C;
-			packageReferences = (
-			);
-			productRefGroup = E00592DA27492BE90076486C /* Products */;
+			mainGroup = E0A69B15274D187F00BAD491;
+			productRefGroup = E0A69B1F274D187F00BAD491 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E00592D827492BE90076486C /* Demo */,
-				E0059309274943170076486C /* tunnel-extension */,
+				E0A69B1D274D187F00BAD491 /* Demo */,
+				E0A69B3F274D19E400BAD491 /* tunnel-extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E00592D727492BE90076486C /* Resources */ = {
+		E0A69B1C274D187F00BAD491 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00592E427492BEB0076486C /* Preview Assets.xcassets in Resources */,
-				E00592E127492BEB0076486C /* Assets.xcassets in Resources */,
+				E0A69B29274D188100BAD491 /* Preview Assets.xcassets in Resources */,
+				E0A69B26274D188100BAD491 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0059308274943170076486C /* Resources */ = {
+		E0A69B3E274D19E400BAD491 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00593232749441A0076486C /* README.md in Resources */,
+				E0A69B58274D1A9700BAD491 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		888E5B8399C6FA582593B1BE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A086083B9FA93B0D52581C88 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Demo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F486308400DF27AD608E88AC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-tunnel-extension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		E00592D527492BE90076486C /* Sources */ = {
+		E0A69B1A274D187F00BAD491 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00592DF27492BE90076486C /* ContentView.swift in Sources */,
-				E005930227493E1A0076486C /* WebView.swift in Sources */,
-				E005930027493CCD0076486C /* WebViewPage.swift in Sources */,
-				E00592DD27492BE90076486C /* DemoApp.swift in Sources */,
+				E0A69B37274D19BB00BAD491 /* WebView.swift in Sources */,
+				E0A69B24274D187F00BAD491 /* ContentView.swift in Sources */,
+				E0A69B38274D19BB00BAD491 /* WebViewPage.swift in Sources */,
+				E0A69B22274D187F00BAD491 /* DemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0059306274943170076486C /* Sources */ = {
+		E0A69B3C274D19E400BAD491 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00593212749441A0076486C /* Subnet.swift in Sources */,
-				E00593202749441A0076486C /* TunnelRayTunnelStore.swift in Sources */,
-				E0059328274944FA0076486C /* PacketTunnelProvider.swift in Sources */,
+				E0A69B5A274D1A9700BAD491 /* TunnelRayTunnelStore.swift in Sources */,
+				E0A69B59274D1A9700BAD491 /* Subnet.swift in Sources */,
+				E0A69B44274D19E400BAD491 /* PacketTunnelProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E0059312274943170076486C /* PBXTargetDependency */ = {
+		E0A69B48274D19E400BAD491 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E0059309274943170076486C /* tunnel-extension */;
-			targetProxy = E0059311274943170076486C /* PBXContainerItemProxy */;
+			target = E0A69B3F274D19E400BAD491 /* tunnel-extension */;
+			targetProxy = E0A69B47274D19E400BAD491 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		E00592E527492BEB0076486C /* Debug */ = {
+		E0A69B2A274D188100BAD491 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -450,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		E00592E627492BEB0076486C /* Release */ = {
+		E0A69B2B274D188100BAD491 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -505,10 +428,10 @@
 			};
 			name = Release;
 		};
-		E00592E827492BEB0076486C /* Debug */ = {
+		E0A69B2D274D188100BAD491 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5E0EAB1C278235B6AAB202E /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Demo/Demo.entitlements;
@@ -536,10 +459,10 @@
 			};
 			name = Debug;
 		};
-		E00592E927492BEB0076486C /* Release */ = {
+		E0A69B2E274D188100BAD491 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85861219062B5AC0EE073C48 /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Demo/Demo.entitlements;
@@ -567,9 +490,8 @@
 			};
 			name = Release;
 		};
-		E0059315274943170076486C /* Debug */ = {
+		E0A69B4B274D19E400BAD491 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E2A0CFBECA6CECA8222A059 /* Pods-tunnel-extension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "tunnel-extension/tunnel_extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -599,9 +521,8 @@
 			};
 			name = Debug;
 		};
-		E0059316274943170076486C /* Release */ = {
+		E0A69B4C274D19E400BAD491 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BE485AD42F3B84AAE316EA3 /* Pods-tunnel-extension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "tunnel-extension/tunnel_extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -634,34 +555,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E00592D427492BE90076486C /* Build configuration list for PBXProject "Demo" */ = {
+		E0A69B19274D187F00BAD491 /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E00592E527492BEB0076486C /* Debug */,
-				E00592E627492BEB0076486C /* Release */,
+				E0A69B2A274D188100BAD491 /* Debug */,
+				E0A69B2B274D188100BAD491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E00592E727492BEB0076486C /* Build configuration list for PBXNativeTarget "Demo" */ = {
+		E0A69B2C274D188100BAD491 /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E00592E827492BEB0076486C /* Debug */,
-				E00592E927492BEB0076486C /* Release */,
+				E0A69B2D274D188100BAD491 /* Debug */,
+				E0A69B2E274D188100BAD491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0059314274943170076486C /* Build configuration list for PBXNativeTarget "tunnel-extension" */ = {
+		E0A69B4A274D19E400BAD491 /* Build configuration list for PBXNativeTarget "tunnel-extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0059315274943170076486C /* Debug */,
-				E0059316274943170076486C /* Release */,
+				E0A69B4B274D19E400BAD491 /* Debug */,
+				E0A69B4C274D19E400BAD491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E0A69B32274D18B500BAD491 /* TunnelRay-ios-lib */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "TunnelRay-ios-lib";
+		};
+		E0A69B4E274D1A0200BAD491 /* TunnelRay-ios-lib */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "TunnelRay-ios-lib";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = E00592D127492BE90076486C /* Project object */;
+	rootObject = E0A69B16274D187F00BAD491 /* Project object */;
 }

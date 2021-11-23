@@ -1,8 +1,8 @@
 import Foundation
 import NetworkExtension
-import TunnelRay
+import TunnelRay_ios_lib
 import CocoaLumberjack;
-//import CocoaLumberjackSwift;
+import CocoaLumberjackSwift;
 
 let appGroup = "group.com.tunnelray.client"
 let conf = """
