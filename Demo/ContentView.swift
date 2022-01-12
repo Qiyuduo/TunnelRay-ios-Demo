@@ -2,7 +2,7 @@ import SwiftUI
 import TunnelRay
 
 struct ContentView: View {
-    @StateObject var tunnel = TunnelRay_ios_lib();
+    @StateObject var tunnel = TunnelRayManager();
     
     var body: some View {
         NavigationView {
